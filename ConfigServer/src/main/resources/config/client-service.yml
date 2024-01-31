@@ -1,0 +1,8 @@
+server:
+    port: 8083
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://servicediscovery1.com:8761/eureka
+  registerWithEureka: true
+  fetchRegistry: true

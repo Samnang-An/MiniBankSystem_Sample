@@ -1,0 +1,12 @@
+spring:
+  main:
+    web-application-type: reactive
+server:
+  port: 8000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://servicediscovery1.com:8761/eureka
+ribbon:
+  eureka:
+    enabled: true
