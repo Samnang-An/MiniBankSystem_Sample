@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: checking-account-service
+  config:
+    import: configserver:http://localhost:9000/
